@@ -8,30 +8,33 @@ const Hero = () => {
     <Wrapper>
       <div>
         <h1 className={styles.title}>
-          <span className={styles.nextjs}>Next.js</span>
-          <span className={styles.mongodb}>MongoDB</span>
-          <span>App</span>
+          <span className={styles.nextjs}>Apax</span>
+          <span className={styles.mongodb}>Bilgisayar</span>
+          <span>Hizmetleri</span>
         </h1>
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
             <Link passHref href="/feed">
-              <ButtonLink className={styles.button}>Explore Feed</ButtonLink>
+              <ButtonLink className={styles.button}>Blog</ButtonLink>
             </Link>
           </Container>
           <Spacer axis="horizontal" size={1} />
           <Container>
             <ButtonLink
-              href="https://github.com/hoangvvo/nextjs-mongodb-app"
+              href="tel:6477812716"
               type="secondary"
               className={styles.button}
             >
-              GitHub
+              Bize Ulasin
             </ButtonLink>
           </Container>
         </Container>
         <p className={styles.subtitle}>
-          A Next.js and MongoDB web application, designed with simplicity for
-          learning and real-world applicability in mind.
+          2008 yılında Trida Bilgisayar olarak başladığımız işletmemizde 2022
+          yılında Apax Bilişim Bilgisayar ve Danışmanlık Hizmetleri olarak
+          gelişmekte olan dünyada yerimizi alarak devam etmekteyiz. Hedefimiz
+          tüm kurum ve kuruluşlarda yer edinmek ve firma faaliyetinde bulunan
+          tüm işletmelerde destek-tedarik ekibi olarak yer edinmektir.
         </p>
       </div>
     </Wrapper>

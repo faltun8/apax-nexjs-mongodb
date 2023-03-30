@@ -106,9 +106,18 @@ const Nav = () => {
           justifyContent="space-between"
         >
           <Link href="/">
-            <a className={styles.logo}>Next.js MongoDB App</a>
+            <a className={styles.logo}>Apax Bilgisayar Hizmetleri</a>
           </Link>
           <Container>
+            <Link href="#main-page">
+              <a className={styles.item}>Anasayfa</a>
+            </Link>
+            <Link href="#about">
+              <a className={styles.item}>Hakkinda</a>
+            </Link>
+            <Link href="#services">
+              <a className={styles.item}>Hizmetlerimiz</a>
+            </Link>
             {user ? (
               <>
                 <UserMenu user={user} mutate={mutate} />
