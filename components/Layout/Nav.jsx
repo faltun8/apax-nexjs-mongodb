@@ -115,6 +115,9 @@ const Nav = () => {
             <Link href="#about">
               <a className={styles.item}>Hakkinda</a>
             </Link>
+            <Link href="#whyUs">
+              <a className={styles.item}>Neden Biz</a>
+            </Link>
             <Link href="#services">
               <a className={styles.item}>Hizmetlerimiz</a>
             </Link>

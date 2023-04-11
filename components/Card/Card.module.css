@@ -1,0 +1,15 @@
+.item {
+    box-shadow: none;
+}
+.item:hover {
+      box-shadow: 5px 10px 30px rgba(54, 54, 54, 0.411);
+}
+
+
+.img {
+    display: block;
+    height: var(--slide-height);
+    width: 100%;
+    object-fit: cover;
+    z-index: -1000;
+}

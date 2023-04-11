@@ -25,7 +25,7 @@ const Hero = () => {
               type="secondary"
               className={styles.button}
             >
-              Bize Ulasin
+              Bizi Arayin
             </ButtonLink>
           </Container>
         </Container>

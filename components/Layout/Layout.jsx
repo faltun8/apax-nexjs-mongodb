@@ -1,13 +1,19 @@
 import Head from 'next/head';
 import Footer from './Footer';
+import WhyUs from './WhyUs';
 import Services from './Services';
 import styles from './Layout.module.css';
 import Nav from './Nav';
+import FooterInfo from '../../page-components/FooterInfo/FooterInfo';
 
 const Layout = ({ children }) => {
   return (
     <>
       <Head>
+        <script
+          src="https://kit.fontawesome.com/2456cb6ed8.js"
+          crossOrigin="anonymous"
+        ></script>
         <title>Apax Bilgisayar Hizmetleri</title>
         <meta
           key="viewport"
@@ -30,7 +36,9 @@ const Layout = ({ children }) => {
       </Head>
       <Nav />
       <main className={styles.main}>{children}</main>
+      <WhyUs />
       <Services />
+      <FooterInfo />
       <Footer />
     </>
   );
