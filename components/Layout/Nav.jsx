@@ -128,20 +128,11 @@ const Nav = () => {
             ) : (
               <>
                 <Link passHref href="/login">
-                  <ButtonLink
-                    size="small"
-                    type="success"
-                    variant="ghost"
-                    color="link"
-                  >
-                    Log in
-                  </ButtonLink>
+                  <a className={styles.item}>Log in</a>
                 </Link>
                 <Spacer axis="horizontal" size={0.25} />
                 <Link passHref href="/sign-up">
-                  <Button size="small" type="success">
-                    Sign Up
-                  </Button>
+                  <a className={styles.item}>Sign Up</a>
                 </Link>
               </>
             )}
