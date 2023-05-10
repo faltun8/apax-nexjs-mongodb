@@ -1,8 +1,9 @@
 import styles from './Avatar.module.css';
+import Image from 'next/image';
 
-const Avatar = ({ size, username, url }) => {
+const Avatar = ({ size, username }) => {
   return (
-    <img
+    <Image
       className={styles.avatar}
       src={'/images/default_user.jpg'}
       alt={username}
